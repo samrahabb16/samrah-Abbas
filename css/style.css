@@ -1,0 +1,114 @@
+/* #shape{
+    color:darkblue;
+    font-size: x-small;
+    font-family: monospace;
+}
+h2{
+    color:blue;
+}
+#lawrenceville{
+    color:brown; 
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+#favoritefood{
+    color:crimson;
+    font-size: x-large;
+    font-family: cursive;
+}
+#box1{
+    background-color: darkmagenta;
+    width: 300px;
+    height: 100px;
+margin:15px;}
+    #box2{
+        background-color:yellow;
+        width: 300px;
+        height: 100px;
+        margin:15px;}
+        #box3{
+            background-color: red;
+            width: 300px;
+            height: 100px;
+            margin:15px;}
+            #box4{
+                background-color:green;
+                width: 300px;
+                height: 100px;
+                margin:15px;}
+                #box5{
+                    background-color: pink;
+                    width: 300px;
+                    height: 100px;
+                    margin:15px;}
+                                      
+#Main{
+    display: inline-flex;
+    padding-left: 120px;
+    
+} */
+#main{
+    display: inline-flex;
+    padding-left: 120px;
+
+}
+#box1{
+    width: 300px;
+    height: 200px;
+    background-color:salmon;
+    margin:15px;
+    animation: linear 10s kickboard;
+
+}#box2{
+    width: 300px;
+    height: 200px;
+    background-color:seagreen;
+    margin:15px;
+    animation: linear 10s kickboard;
+    
+}#box3{
+    width: 300px;
+    height: 200px;
+    background-color:slateblue;
+    margin:15px;
+    animation: linear 10s kickboard;
+
+}
+
+
+@keyframes kickboard{
+    from{transform: rotate(90deg);
+
+    }
+
+    to{transform: rotate(360deg);
+
+    }
+}
+
+
+
+
+
+
+
+
+#loading{
+    width: 100px;
+    height:15px;
+    background-color: green;
+    animation: linear 10s kickboard1;
+}
+@keyframes kickboard1{
+    from{ width: 100px;
+        height:15px;
+        background-color: green;
+
+
+    }
+    to{
+        width: 1000px;
+        height:20px;
+        background-color: pink;
+    }
+}
